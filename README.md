@@ -1,7 +1,7 @@
 # Boggle
 A quick-and-dirty Boggle board solver.
 
-I wrote this as something to do on a flight to Chigago, mostly because I
+I wrote this as something to do on a flight to Chicago, mostly because I
 disagree with the choice of word list used by
 [WEBoggle](http://weboggle.info/).
 
