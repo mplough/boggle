@@ -1,6 +1,6 @@
 from collections import defaultdict
 import pathlib
-from random import getstate, setstate, randint, shuffle
+from random import randint, shuffle
 
 import click
 
@@ -157,10 +157,8 @@ def clear(root, board):
 
 
 def traverse(word, root, board):
-    # print(f'traverse("{word}", "{root.letter}", ...')
     visited = root.visited
     root.visited = True
-    # print(str_board(board))
     root.visited = visited
 
     if root.visited:
@@ -169,7 +167,6 @@ def traverse(word, root, board):
     root.visited = True
 
     if root.letter == word:
-        #print(str_board(board))
         return True
 
     new_word = word[len(root.letter):]
